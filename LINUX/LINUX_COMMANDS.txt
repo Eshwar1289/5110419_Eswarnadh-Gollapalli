@@ -1,0 +1,178 @@
+    1  date
+    2  date "+%D"
+    3  date "+%D %T"
+    4  date "+%Y-%m-%d"
+    5  date "+%A %B %D %Y %T"
+    6  date --date "Tomorrow"
+    7  date --date "2 years ago"
+    8  man date
+    9  bc
+   10  bc <<< "12/5"
+   11  bc <<< "scale=2; 12/5"
+   12  bc <<< "2>5"
+   13  bc <<< "2^10"
+   14  uname
+   15  uname -o
+   16  uname -i
+   17  uname -n
+   18  uname -v
+   19  uname -s
+   20  uname -m
+   21  uname -r
+   22  uname -a
+   23  echo $shell
+   24  cal
+   25  sudo apt install ncal
+   26  sudo apt update
+   27  sudo apt install util-linux
+   28  cal
+   29  sudo apt install ncal
+   30  cal
+   31  cal 7 2025
+   32  cal 5 2025
+   33  cal 2025
+   34  cal -3 2025
+   35  cal -3 7 2025
+   36  cal -3
+   37  ps
+   38  seq 1 10
+   39  seq 1 3 10
+   40  seq 10 -1 1 
+   41  seq 20 -2 2
+   42  seq 20 -2 0
+   43  ls
+   44  mkdir stepin
+   45  ls
+   46  history
+   47  mkdir -p stepin/module 1/module 2/module 3
+   48  ls
+   49  ls -l
+   50  cd stepin
+   51  mkdir sdlc linux git
+   52  ls
+   53  mkdir linux_practice
+   54  cd linux_practice
+   55  vi sum.c
+   56  echo "welcome to linux"
+   57  echo -e "hello \t world"
+   58  echo -n "hello world"
+   59  echo "welcome to \"linux\""
+   60  echo 'date'
+   61  echo "this is
+   62  linux
+   63  training
+   64  for 
+   65  notchup
+   66  july 2025"
+   67  echo "this is training for notchup july 2025"
+   68  printf"linux training"
+   69  printf "linux training"
+   70  printf "linux training\n"
+   71  printf "my shell is %s\n"$SHELL
+   72  rev <<< linux
+   73  echo$?
+   74  sudo apt install
+   75  echo$?
+   76  echo $?
+   77  false
+   78  ls
+   79  mkdir new
+   80  cd new
+   81  ls
+   82  mkdir new1 new2
+   83  cd
+   84  cd-
+   85  cd -
+   86  mkdir -p d1/d2
+   87  cd d1
+   88  ls
+   89  ls -l
+   90  ls -a
+   91  ls -r
+   92  nano demo
+   93  wc demo
+   94  touch newfile.txt
+   95  nano newfile.txt
+   96  cat newfile.txt
+   97  cat newfile.txt > output.txt
+   98  cat output.txt
+   99  cat -n demo
+  100  ls
+  101  mkdir training
+  102  cp newfile output.txt training
+  103  cd training
+  104  ls
+  105  cd
+  106  ls
+  107  ls -R
+  108  cp -r new training
+  109  ls
+  110  cd training
+  111  ls
+  112  cd new
+  113  ls
+  114  mv output.txt out
+  115  ls
+  116  mv out training
+  117  ls
+  118  cd training
+  119  ls
+  120  gcc sum.c && ./a.out
+  121  sudo apt install gcc
+  122  gcc sum.c && ./a.out
+  123  vi sum.c
+  124  gcc sum.c && ./a.out
+  125  sudo apt install update
+  126  gcc ifelse.c
+  127  sudo apt install gcc
+  128  gcc ifelse.c
+  129  cd..
+  130  cd ..
+  131  sudo apt install update
+  132  sudo apt update
+  133  sudo apt upgrade
+  134  sudo apt install build-essential
+  135  exit
+  136  history
+  137  echo $SHELL
+  138  whoami
+  139  whatis cat
+  140  whatis gcc
+  141  whereis gcc
+  142  info cat
+  143  date; uname -r;whoami
+  144  date; unam -r;whoami
+  145  date && whoami
+  146  dat && whoami
+  147  dat&&whoami
+  148  history
+  149  ls
+  150  rm 1 2 3 
+  151  rmdir 1
+  152  rm a.out
+  153  ls
+  154  history
+  155  history > linux_commands.txt
+  156  ls
+  157  cat linux_commands.txt
+  158  pwd
+  159* mv ~/linux_commands.txt /mnt
+  160  mv ~/linux_commands.txt /mnt/d/5110419_Eswarnadh-Gollapalli/LINUX/
+  161  mv ~/linux_commands.txt /d/5110419_Eswarnadh-Gollapalli/LINUX/
+  162  mv ~/linux_commands.txt /mnt/d/5110419_Eswarnadh-Gollapalli/LINUX/
+  163  find ~ -name "linux_commands.txt"
+  164  find /home/userneshwar -name "linux_commands.txt"
+  165  find /home/usereshwar -name "linux_commands.txt"
+  166  ls
+  167  ls stpin
+  168  ls stepin
+  169  mv /home/usereshwar/stepin/linux_commands.txt /mnt/d/5110419_Eswarnadh-Gollapalli/LINUX/
+  170  cd /home/usereshwar
+  171  ls
+  172  ls "linux_commands.txt"
+  173  ls stepin
+  174  ls linux
+  175  history
+  176  find ~ -name "linux_commands.txt"
+  177  find ~ -type f -iname "linux_commands.txt"
+  178  history > LINUX_COMMANDS.txt
